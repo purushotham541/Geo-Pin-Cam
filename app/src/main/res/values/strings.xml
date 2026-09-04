@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">Geo Pin Cam</string>
+
+    <!-- Navigation and shared actions -->
+    <string name="action_back">Back</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_open_settings">Open app settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Splash -->
+    <string name="splash_description">Geo Pin Cam</string>
+
+    <!-- Camera screen -->
+    <string name="camera_shutter">Take photo</string>
+    <string name="camera_switch_to_front">Switch to front camera</string>
+    <string name="camera_switch_to_back">Switch to rear camera</string>
+    <string name="camera_open_gallery">Open gallery</string>
+    <string name="camera_open_settings">Open settings</string>
+    <string name="camera_flash_off">Flash off</string>
+    <string name="camera_flash_on">Flash on</string>
+    <string name="camera_flash_auto">Flash automatic</string>
+    <string name="camera_flash_auto_badge">A</string>
+    <string name="camera_flash_torch">Torch on</string>
+    <string name="camera_flash_torch_badge">T</string>
+    <string name="camera_starting">Starting camera…</string>
+    <string name="camera_preview_description">Live camera preview</string>
+
+    <!-- Camera: photo / video mode -->
+    <string name="camera_mode_photo">Photo</string>
+    <string name="camera_mode_video">Video</string>
+    <string name="camera_switch_to_photo_mode">Switch to photo mode</string>
+    <string name="camera_switch_to_video_mode">Switch to video mode</string>
+    <string name="camera_record_start">Start recording</string>
+    <string name="camera_record_stop">Stop recording</string>
+    <string name="camera_recording_time">Recording, %s elapsed</string>
+
+    <!-- Video capture results -->
+    <string name="video_saved">Video saved</string>
+    <string name="video_failed">The video could not be recorded. Please try again.</string>
+    <string name="video_save_failed">The video could not be saved to your gallery.</string>
+    <string name="video_play_failed">No app is available to play this video.</string>
+    <string name="video_share_title">Share video</string>
+
+    <!-- Camera permission -->
+    <string name="camera_permission_title">Camera access needed</string>
+    <string name="camera_permission_rationale">Geo Pin Cam needs the camera to take the photographs you stamp. Photos stay on this device.</string>
+    <string name="camera_permission_denied_permanently">Camera access is blocked. Enable it in app settings to take photos.</string>
+    <string name="camera_permission_grant">Allow camera</string>
+    <string name="camera_unavailable">The camera could not be opened. Close other camera apps and try again.</string>
+
+    <!-- Location status and permission -->
+    <string name="location_permission_required">Location permission required</string>
+    <string name="location_permission_title">Location access needed</string>
+    <string name="location_permission_rationale">Geo Pin Cam reads your GPS position so it can stamp coordinates and the address onto your photos. Location never leaves this device.</string>
+    <string name="location_permission_denied_permanently">Location access is blocked. Enable it in app settings to stamp photos with GPS data.</string>
+    <string name="location_permission_grant">Allow location</string>
+    <string name="location_permission_approximate">Only approximate location is allowed, so the stamp will be less precise. Allow precise location for exact coordinates.</string>
+    <string name="location_searching">Waiting for GPS…</string>
+    <string name="location_services_disabled">Location is turned off on this device</string>
+    <string name="location_enable_services">Turn on location</string>
+    <string name="location_unavailable">Location unavailable</string>
+    <string name="location_address_unavailable">Address unavailable</string>
+    <string name="location_stale">Location is not current</string>
+    <string name="location_fix_ready">GPS ready</string>
+    <string name="location_accuracy_short">±%s m</string>
+
+    <!-- Stamp content -->
+    <string name="stamp_pin">📍</string>
+    <string name="stamp_altitude">Altitude: %s m</string>
+    <string name="stamp_accuracy">Accuracy: ±%s m</string>
+    <string name="stamp_speed">Speed: %s km/h</string>
+    <string name="stamp_bearing">Direction: %s</string>
+    <string name="stamp_datetime_separator">" • "</string>
+    <string name="stamp_coordinates_labelled">Lat %1$s° Long %2$s°</string>
+
+    <!-- Capture results -->
+    <string name="capture_failed">The photo could not be captured. Please try again.</string>
+    <string name="capture_processing_failed">The photo was captured but the stamp could not be applied.</string>
+    <string name="capture_save_failed">The photo could not be saved to your gallery.</string>
+    <string name="capture_preview_description">Photo you just captured</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Gallery</string>
+    <string name="gallery_empty_title">No photos yet</string>
+    <string name="gallery_empty_message">Photos you take with Geo Pin Cam appear here.</string>
+    <string name="gallery_photo_description">Photo taken on %s</string>
+    <string name="gallery_video_description">Video taken on %1$s, %2$s long</string>
+    <string name="gallery_play_video">Play video</string>
+    <string name="gallery_load_failed">Your photos could not be loaded.</string>
+
+    <!-- Photo detail -->
+    <string name="photo_delete_title">Delete this photo?</string>
+    <string name="photo_delete_message">The photo will be removed from your device. This cannot be undone.</string>
+    <string name="photo_deleted">Photo deleted</string>
+    <string name="photo_delete_failed">The photo could not be deleted.</string>
+    <string name="photo_share_title">Share photo</string>
+    <string name="photo_share_failed">No app is available to share this photo.</string>
+    <string name="photo_export_saved">A copy was saved to your gallery.</string>
+    <string name="photo_rotate_left">Rotate left</string>
+    <string name="photo_rotate_right">Rotate right</string>
+    <string name="photo_rotating">Rotating…</string>
+    <string name="photo_rotated">Photo rotated</string>
+    <string name="photo_rotate_failed">The photo could not be rotated.</string>
+    <string name="photo_save_copy">Save a copy</string>
+
+    <!-- Settings: sections -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_camera">Camera</string>
+    <string name="settings_section_stamp">GPS stamp</string>
+    <string name="settings_section_stamp_fields">Stamp information</string>
+    <string name="settings_section_location">Location</string>
+    <string name="settings_section_datetime">Date &amp; time</string>
+    <string name="settings_section_storage">Storage</string>
+    <string name="settings_section_about">About</string>
+
+    <!-- Settings: camera -->
+    <string name="settings_photo_quality">Photo quality</string>
+    <string name="settings_quality_high">High</string>
+    <string name="settings_quality_medium">Medium</string>
+    <string name="settings_quality_low">Low</string>
+    <string name="settings_flash_preference">Flash preference</string>
+    <string name="settings_default_camera">Default camera</string>
+    <string name="settings_camera_back">Rear camera</string>
+    <string name="settings_camera_front">Front camera</string>
+    <string name="settings_video_quality">Video quality</string>
+    <string name="settings_video_uhd">4K (Ultra HD)</string>
+    <string name="settings_video_full_hd">1080p (Full HD)</string>
+    <string name="settings_video_hd">720p (HD)</string>
+
+    <!-- Settings: stamp appearance -->
+    <string name="settings_stamp_enabled">Add GPS stamp to photos</string>
+    <string name="settings_stamp_enabled_summary">Turn off to save clean photos with no overlay</string>
+    <string name="settings_stamp_position">Stamp position</string>
+    <string name="settings_position_top_left">Top left</string>
+    <string name="settings_position_top_center">Top center</string>
+    <string name="settings_position_top_right">Top right</string>
+    <string name="settings_position_bottom_left">Bottom left</string>
+    <string name="settings_position_bottom_center">Bottom center</string>
+    <string name="settings_position_bottom_right">Bottom right</string>
+    <string name="settings_font_size">Font size</string>
+    <string name="settings_font_small">Small</string>
+    <string name="settings_font_medium">Medium</string>
+    <string name="settings_font_large">Large</string>
+    <string name="settings_font_extra_large">Extra large</string>
+    <string name="settings_text_alignment">Text alignment</string>
+    <string name="settings_alignment_start">Left</string>
+    <string name="settings_alignment_center">Center</string>
+    <string name="settings_alignment_end">Right</string>
+    <string name="settings_background_opacity">Background transparency</string>
+    <string name="settings_background_opacity_value">%d%% opaque</string>
+
+    <!-- Settings: stamp fields -->
+    <string name="settings_field_address">Place headline</string>
+    <string name="settings_field_address_summary">City, state and country, with the country flag</string>
+    <string name="settings_field_place_name">Exact place</string>
+    <string name="settings_field_place_name_summary">Building or business name, street and postcode</string>
+    <string name="settings_field_country_flag">Country flag</string>
+    <string name="settings_field_map">Map thumbnail</string>
+    <string name="settings_field_map_summary">Fetches a map picture of the spot. Needs a network connection.</string>
+    <string name="settings_field_coordinates">Latitude / longitude</string>
+    <string name="settings_field_date">Date</string>
+    <string name="settings_field_time">Time</string>
+    <string name="settings_field_accuracy">Accuracy</string>
+    <string name="settings_field_altitude">Altitude</string>
+    <string name="settings_field_speed">Speed</string>
+    <string name="settings_field_bearing">Direction</string>
+    <string name="settings_field_app_name">App name</string>
+    <string name="settings_fields_all_off">Turn on at least one field, or the stamp stays empty.</string>
+
+    <!-- Settings: location -->
+    <string name="settings_coordinate_format">Coordinate format</string>
+    <string name="settings_coordinate_labelled">Labelled (Lat 17.594678° Long 78.441647°)</string>
+    <string name="settings_coordinate_decimal">Decimal degrees</string>
+    <string name="settings_coordinate_dms">Degrees, minutes, seconds</string>
+    <string name="settings_address_detail">Address display</string>
+    <string name="settings_address_short">City, state, country</string>
+    <string name="settings_address_full">Full street address</string>
+
+    <!-- Settings: date and time -->
+    <string name="settings_date_format">Date format</string>
+    <string name="settings_time_format">Time format</string>
+    <string name="settings_time_12_hour_zone">12-hour with time zone</string>
+    <string name="settings_time_12_hour">12-hour</string>
+    <string name="settings_time_12_hour_seconds">12-hour with seconds</string>
+    <string name="settings_time_24_hour">24-hour</string>
+    <string name="settings_time_24_hour_seconds">24-hour with seconds</string>
+    <string name="settings_time_24_hour_zone">24-hour with time zone</string>
+
+    <!-- Settings: storage -->
+    <string name="settings_save_location">Save location</string>
+    <string name="settings_save_location_value">Pictures/Geo Pin Cam</string>
+    <string name="settings_save_stamped">Save stamped photo</string>
+    <string name="settings_save_original">Also save the original photo</string>
+    <string name="settings_save_original_summary">Keeps an unstamped copy alongside the stamped one</string>
+
+    <!-- About and privacy -->
+    <string name="about_app_name">App name</string>
+    <string name="about_version">Version</string>
+    <string name="about_version_value">%1$s (%2$d)</string>
+    <string name="about_privacy">Privacy</string>
+    <string name="about_licenses">Open-source licenses</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_camera_heading">Why camera access is needed</string>
+    <string name="privacy_camera_body">The camera permission is used only to show the live preview and to take the photograph or record the video when you press the shutter.</string>
+    <string name="privacy_microphone_heading">Why microphone access is needed</string>
+    <string name="privacy_microphone_body">The microphone is used only to record sound while you are recording a video. It is optional: deny it and videos record silently. Audio is never captured while taking photos or while the app is in the background.</string>
+    <string name="privacy_location_heading">Why location access is needed</string>
+    <string name="privacy_location_body">Your GPS position is read while the camera screen is open so the coordinates, accuracy, altitude and address can be written onto the photo.</string>
+    <string name="privacy_storage_heading">How photos are stored</string>
+    <string name="privacy_storage_body">Photos are written to Pictures/Geo Pin Cam on this device using the system media store, which makes them visible in your gallery app.</string>
+    <string name="privacy_network_heading">Does data leave the device?</string>
+    <string name="privacy_network_body">Your photos are never uploaded. Two features do send your coordinates off the device when you are online: converting coordinates into an address uses the Android geocoder, which may contact Google servers, and the map thumbnail requests a map tile from OpenStreetMap. Both are only ever given the coordinates, never the photo. Turn the map thumbnail off in Settings to stop the tile requests, and the app still stamps coordinates normally when offline.</string>
+    <string name="privacy_analytics_heading">Analytics</string>
+    <string name="privacy_analytics_body">This app contains no analytics, advertising or tracking libraries.</string>
+    <string name="licenses_title">Open-source licenses</string>
+    <string name="licenses_body">Geo Pin Cam is built with AndroidX, Jetpack Compose, CameraX and Google Play services Location, which are distributed under the Apache License 2.0.
+
+Map thumbnails use tile imagery © OpenStreetMap contributors, available under the Open Database License. See www.openstreetmap.org/copyright.</string>
+
+</resources>

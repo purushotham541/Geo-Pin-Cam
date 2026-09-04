@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The near-white the logo tile and the branded artwork both open on, so the
+         system splash hands over to the in-app splash with no colour jump. -->
+    <color name="splash_background">#FFFEFEFE</color>
+</resources>

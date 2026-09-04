@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GeoPinCam" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Shown by the system while the process starts: just the pale ground, no
+         icon. The in-app branded splash (see BrandSplashScreen.kt) carries the
+         logo, so the system splash only needs to avoid a colour jump into it. -->
+    <style name="Theme.GeoPinCam.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_none</item>
+        <item name="postSplashScreenTheme">@style/Theme.GeoPinCam</item>
+    </style>
+</resources>
