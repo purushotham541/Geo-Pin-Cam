@@ -1,5 +1,9 @@
 # Privacy Policy — Geo Pin Cam
 
+> Published at **https://purushotham541.github.io/Geo-Pin-Cam/**
+> (source: `docs/index.html`). This Markdown file is kept in sync as the source
+> of truth — edit both when it changes.
+
 _Last updated: 4 September 2026_
 
 Geo Pin Cam ("the app") is a camera app that writes a GPS/location stamp onto the
@@ -67,5 +71,4 @@ If this policy changes, the "Last updated" date above will change.
 
 ## Contact
 
-<!-- TODO: replace with a real contact address before publishing -->
-your-email@example.com
+purushotham541@gmail.com

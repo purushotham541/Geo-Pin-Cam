@@ -15,7 +15,7 @@ Copy‑paste these into the Play Console. Adjust wording to taste.
 | Tags | GPS camera, geotag, location stamp, timestamp camera |
 | Contact email | _your email_ |
 | Website (optional) | _your site, or leave blank_ |
-| Privacy policy URL | _host `PRIVACY_POLICY.md` and paste the URL_ |
+| Privacy policy URL | `https://purushotham541.github.io/Geo-Pin-Cam/` |
 
 ## Short description (80 characters max)
 

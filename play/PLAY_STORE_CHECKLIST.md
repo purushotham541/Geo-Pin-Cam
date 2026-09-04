@@ -26,9 +26,13 @@ App Signing, a lost key means you can never update the app.
 
 ## Before you build the final AAB
 
-1. **Contact email / privacy URL** — edit `play/PRIVACY_POLICY.md`
-   (`your-email@example.com`), host it somewhere public (GitHub Pages, a Google
-   Site, Notion public page…), and note the URL.
+1. **Privacy policy** — published via GitHub Pages at
+   **https://purushotham541.github.io/Geo-Pin-Cam/** (source `docs/index.html`).
+   Enable it once in the repo: **Settings → Pages → Source: Deploy from a branch →
+   Branch `main`, folder `/docs` → Save**. Wait ~1 min, confirm the URL loads,
+   then paste it into the Play Console. Contact email in the policy is
+   `purushotham541@gmail.com` — change it in `docs/index.html` and
+   `play/PRIVACY_POLICY.md` if you want a different address.
 2. **`versionCode` / `versionName`** in `app/build.gradle.kts` — `1` / `"1.0"` is
    fine for the first upload. Bump `versionCode` for every subsequent upload.
 3. **Target API level** — currently `targetSdk = 37`. Google Play requires new
